@@ -10,192 +10,136 @@ namespace POOSemana1Console
     {
 
 
-        static void Main(string[] args)
+     
+    static void Main(string[] args)
         {
-            bool continuar = true;
-            while (continuar)
+            string oper;
+            do
             {
-                Console.WriteLine("Que desea hacer?");
-                Console.WriteLine("0- Salir");
-                Console.WriteLine("1- Validar numeros primos");
-                Console.WriteLine("2- Numero mayor y menor de 3 numeros");
-                Console.WriteLine("3- Numero mayor de una lista");
-                int op = Convert.ToInt32(Console.ReadLine());
-                switch (op)
+                MostrarMenu();
+                oper = Console.ReadLine();
+
+                switch (oper)
                 {
-                    case 0:
-                        continuar = false;
+                    case "1":
+                        ProcesarNumeros();
                         break;
-                    case 1:
-                        NumerosPirmos();
+                    case "2":
+                        ProcesarPrimos();
                         break;
-                    case 2:
-                        NumeroMayorNUmeroMenor();
+                    case "3":
+                        ImprimirNumeroMayor();
                         break;
-                    case 3:
-                        MayorDeUnaLista();
+                    case "4":
+                        Console.WriteLine("Saliendo del programa...");
+                        break;
+                    default:
+                        Console.WriteLine("Opción inválida.");
                         break;
                 }
-                if (continuar)
+
+                if (oper != "4")
                 {
-                    Console.WriteLine("Desea realizar otra operacion?");
-                    Console.WriteLine("S- SI");
-                    Console.WriteLine("N- NO");
-                    continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
-                    Console.Clear();
+                    PausarAntesDeVolverAlMenu();
                 }
-            }
-            Console.ReadLine();
+
+            } while (oper != "4"); // Repite el ciclo hasta que el usuario elija salir
         }
 
-        //Tarea:
-        //Resolver el problema de los numero primos
-        //El codigo debe de mostrar cuales son los numero primos de 1 hasta el numero indicado
-        //ejemplo:
-        //dado el numero 7
-        //debe de mostrar que el numero 2,3, 5 y 7 son primos
-        private static void NumerosPirmos()
+        // Mostrar el menú principal
+        private static void MostrarMenu()
         {
-            int n = 0;
-            Console.WriteLine("Dame un numero mayor a 1");
-            n = Convert.ToInt32(Console.ReadLine());
-            if (n < 2)
-            {
-                Console.WriteLine("Numero no valido");
-            }
-            for (int i = 2; i <= n; i++)
-            {
-                if (IsPrimo(i))
-                {
-                    Console.WriteLine($"{i} es primo");
-                }
-            }
-            Console.WriteLine();
+            Console.Clear();
+            Console.WriteLine("Ingrese la operación que quiere usar:");
+            Console.WriteLine("1. Número mayor o menor");
+            Console.WriteLine("2. Números primos");
+            Console.WriteLine("3. Imprimir solo el número mayor");
+            Console.WriteLine("4. Salir");
         }
 
-        private static bool IsPrimo(int n)
+        // Pausar antes de volver al menú
+        private static void PausarAntesDeVolverAlMenu()
         {
-            for (int i = 2; i <= Math.Sqrt(n); i++)
+            Console.WriteLine("\nPresione cualquier tecla para volver al menú...");
+            Console.ReadKey();
+        }
+
+        // Procesar la entrada de números y determinar mayor y menor
+        private static void ProcesarNumeros()
+        {
+            int[] numeros = LeerNumeros(3);
+            MostrarMayor(numeros);
+            MostrarMenor(numeros);
+        }
+
+        // Leer una cantidad específica de números ingresados por el usuario
+        private static int[] LeerNumeros(int cantidad)
+        {
+            int[] numeros = new int[cantidad];
+            for (int i = 0; i < cantidad; i++)
             {
-                if (n % i == 0)
+                Console.WriteLine($"Dame el número {i + 1}:");
+                numeros[i] = Convert.ToInt32(Console.ReadLine());
+            }
+            return numeros;
+        }
+
+        // Mostrar el número mayor de una lista de números
+        private static void MostrarMayor(int[] numeros)
+        {
+            Console.WriteLine($"El número mayor es: {numeros.Max()}");
+        }
+
+        // Mostrar el número menor de una lista de números
+        private static void MostrarMenor(int[] numeros)
+        {
+            Console.WriteLine($"El número menor es: {numeros.Min()}");
+        }
+
+        // Pedir al usuario una cantidad de números y mostrar solo el mayor
+        private static void ImprimirNumeroMayor()
+        {
+            Console.WriteLine("¿Cuántos números quieres ingresar?");
+            int cantidad = Convert.ToInt32(Console.ReadLine());
+            int[] numeros = LeerNumeros(cantidad);
+            MostrarMayor(numeros);
+        }
+
+        // Procesar el cálculo de números primos
+        private static void ProcesarPrimos()
+        {
+            Console.WriteLine("Dame un número:");
+            int N = Convert.ToInt32(Console.ReadLine());
+            MostrarNumerosPrimos(N);
+        }
+
+        // Mostrar todos los números primos entre 1 y N
+        private static void MostrarNumerosPrimos(int N)
+        {
+            Console.WriteLine($"Números primos de 1 a {N}:");
+
+            for (int i = 2; i <= N; i++)
+            {
+                if (EsPrimo(i))
                 {
-                    return false;
+                    Console.Write($"{i} ");
                 }
+            }
+
+            Console.WriteLine(); // Salto de línea después de imprimir los números primos
+        }
+
+        // Determinar si un número es primo
+        private static bool EsPrimo(int numero)
+        {
+            if (numero <= 1) return false;
+            if (numero == 2) return true;
+
+            for (int i = 2; i <= Math.Sqrt(numero); i++)
+            {
+                if (numero % i == 0) return false;
             }
             return true;
-        }
-
-        private static void NumeroMayorNUmeroMenor()
-        {
-            int num1 = 0;
-            int num2 = 0;
-            int num3 = 0;
-            Console.WriteLine("Dame el primer numero");
-            num1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Dame el segundo numero");
-            num2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Dame el tercer numero");
-            num3 = Convert.ToInt32(Console.ReadLine());
-            NumeroMayor(num1, num2, num3);
-            NumeroMenor(num1, num2, num3);
-        }
-        private static void NumeroMayor(int num1, int num2, int num3)
-        {
-            if (num1 > num2)
-            {
-                if (num1 > num3)
-                {
-                    Console.WriteLine($"el numero {num1} es el mayor");
-                }
-                else
-                {
-                    Console.WriteLine("el tercer numero es el mayor");
-                }
-
-            }
-            else if (num2 > num1)
-            {
-                if (num2 > num3)
-                {
-                    Console.WriteLine("el segundo numero es el mayor");
-                }
-                else
-                {
-                    Console.WriteLine("el tercer numero es el mayor");
-                }
-            }
-
-        }
-
-        private static void NumeroMenor(int num1, int num2, int num3)
-        {
-            if (num1 < num2)
-            {
-                if (num1 < num3)
-                {
-                    Console.WriteLine("el perimer numero es el menor");
-                }
-                else
-                {
-                    Console.WriteLine("el tercer numero es el menor");
-                }
-
-            }
-            else if (num2 < num1)
-            {
-                if (num2 < num3)
-                {
-                    Console.WriteLine("el segundo numero es el menor");
-                }
-                else
-                {
-                    Console.WriteLine("el tercer numero es el menor");
-                }
-            }
-        }
-
-        private static void MayorDeUnaLista()
-        {
-            bool continuar = true;
-            List<int> lista = new List<int>();
-            while (continuar)
-            {
-                Console.WriteLine("Escribe un numero");
-                int numero = Convert.ToInt32(Console.ReadLine());
-                lista.Add(numero);
-                Console.WriteLine("Preguntar si quiere agregar otro numero");
-                Console.WriteLine("S- SI");
-                Console.WriteLine("N- No");
-                continuar = char.ToUpper(Console.ReadKey().KeyChar) == 'S';
-                Console.Clear();
-            }
-            bool esMayor = false;
-            for (int i = 0; i < lista.Count; i++)//FOR 1
-            {
-                int N = lista[i];//obtener numero de la lista 
-                for (int j = 0; j < lista.Count; j++)//FOR 2
-                {
-                    int M = lista[j];//obtener numero del segundo for
-                    if (N < M)
-                    {
-                        break;
-                    }
-                    else if (N == M || N > M)
-                    {
-                        if (j == lista.Count - 1)
-                        {
-                            esMayor = true;
-                        }
-                    }
-                }
-                //si aun no se ha encontrado el mayor,
-                //pasa a la siguiente iteracion del for 1
-                if (!esMayor)
-                {
-                    break;
-                }
-            }
-            Console.WriteLine("El numero mayor es:");
         }
     }
 }
