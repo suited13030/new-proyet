@@ -1,0 +1,7 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\bin\Debug\numero mayor de una lista.exe.config
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\bin\Debug\numero mayor de una lista.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\bin\Debug\numero mayor de una lista.pdb
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\obj\Debug\numero mayor de una lista.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\obj\Debug\numero mayor de una lista.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\obj\Debug\numero mayor de una lista.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\numero mayor de una lista\obj\Debug\numero mayor de una lista.pdb
