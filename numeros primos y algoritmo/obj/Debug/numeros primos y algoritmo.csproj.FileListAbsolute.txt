@@ -1,0 +1,7 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\bin\Debug\numeros primos y algoritmo.exe.config
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\bin\Debug\numeros primos y algoritmo.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\bin\Debug\numeros primos y algoritmo.pdb
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\obj\Debug\numeros primos y algoritmo.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\obj\Debug\numeros primos y algoritmo.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\obj\Debug\numeros primos y algoritmo.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\numeros primos y algoritmo\obj\Debug\numeros primos y algoritmo.pdb
