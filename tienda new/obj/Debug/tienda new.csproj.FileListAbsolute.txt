@@ -1,0 +1,7 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\obj\Debug\tienda new.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\obj\Debug\tienda new.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\bin\Debug\tienda new.exe.config
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\bin\Debug\tienda new.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\bin\Debug\tienda new.pdb
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\obj\Debug\tienda new.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\tienda new\obj\Debug\tienda new.pdb
