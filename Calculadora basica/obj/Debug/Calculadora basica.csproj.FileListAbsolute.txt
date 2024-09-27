@@ -1,0 +1,7 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\bin\Debug\Calculadora basica.exe.config
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\bin\Debug\Calculadora basica.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\bin\Debug\Calculadora basica.pdb
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\obj\Debug\Calculadora basica.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\obj\Debug\Calculadora basica.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\obj\Debug\Calculadora basica.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\Calculadora basica\obj\Debug\Calculadora basica.pdb
