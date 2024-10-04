@@ -1,0 +1,10 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\bin\Debug\calificacion 1.0.exe.config
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\bin\Debug\calificacion 1.0.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\bin\Debug\calificacion 1.0.pdb
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion 1.0.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion_1._0.Form1.resources
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion_1._0.Properties.Resources.resources
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion 1.0.csproj.GenerateResource.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion 1.0.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion 1.0.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\calificacion 1.0\obj\Debug\calificacion 1.0.pdb
