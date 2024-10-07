@@ -16,5 +16,10 @@ namespace calificacion_1._0
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

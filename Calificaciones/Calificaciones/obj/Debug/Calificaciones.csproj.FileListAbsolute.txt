@@ -1,0 +1,12 @@
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\bin\Debug\Calificaciones.exe.config
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\bin\Debug\Calificaciones.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\bin\Debug\Calificaciones.pdb
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.csproj.AssemblyReference.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.Alumnos.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.Form1.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.Materias.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.Properties.Resources.resources
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.csproj.GenerateResource.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.csproj.CoreCompileInputs.cache
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.exe
+C:\Users\salaz\OneDrive\Escritorio\unidep\POO\Semana1\Calificaciones\obj\Debug\Calificaciones.pdb
