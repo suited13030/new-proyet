@@ -20,13 +20,13 @@ namespace Calificaciones
 
         private void Registar(object sender, EventArgs e)
         {
-            //forma 1
+          
             Alumno alumno = new Alumno();
             alumno.Nombre = tbnombre.Text;
             alumno.Apellidos = tbapellidos.Text;
             alumno.Matricula = tbmatricula.Text;
 
-            //forma 2
+          
             Alumno alumno2 = new Alumno()
             {
                 Nombre = tbnombre.Text,

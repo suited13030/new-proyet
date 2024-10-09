@@ -13,7 +13,7 @@ namespace Calificaciones
         
         public static void RegistrarAlumno(Alumno alumno)
         {
-            //codigo para registrar alumno
+   
         }
 
     }
