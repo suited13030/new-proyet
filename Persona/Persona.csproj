@@ -45,6 +45,12 @@
   <ItemGroup>
     <Compile Include="Interfaces\Admin.cs" />
     <Compile Include="Interfaces\Cliente.cs" />
+    <Compile Include="Interfaces\figuras\Circulo.cs" />
+    <Compile Include="Interfaces\figuras\Cuadrado.cs" />
+    <Compile Include="Interfaces\figuras\figura.cs" />
+    <Compile Include="Interfaces\figuras\Poligono.cs" />
+    <Compile Include="Interfaces\figuras\Rectangulo.cs" />
+    <Compile Include="Interfaces\figuras\Triangulo.cs" />
     <Compile Include="Interfaces\IUsuarios.cs" />
     <Compile Include="Interfaces\IUsuarios1.cs" />
     <Compile Include="Persona.cs" />
