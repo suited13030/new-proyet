@@ -1,0 +1,5 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyecto Final\obj\Debug\Proyecto Final.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyecto Final\obj\Debug\Proyecto_Final.Properties.Resources.resources
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyecto Final\obj\Debug\Proyecto Final.csproj.GenerateResource.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyecto Final\obj\Debug\Proyecto Final.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyecto Final\obj\Debug\Proyecto_Final.Form1.resources

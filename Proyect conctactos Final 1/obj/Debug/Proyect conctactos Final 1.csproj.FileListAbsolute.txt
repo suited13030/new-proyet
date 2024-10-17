@@ -1,0 +1,7 @@
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\bin\Debug\Proyect conctactos Final 1.exe.config
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\bin\Debug\Proyect conctactos Final 1.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\bin\Debug\Proyect conctactos Final 1.pdb
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\obj\Debug\Proyect conctactos Final 1.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\obj\Debug\Proyect conctactos Final 1.csproj.CoreCompileInputs.cache
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\obj\Debug\Proyect conctactos Final 1.exe
+C:\Users\jesus\source\repos\suited13030\new-proyet\Proyect conctactos Final 1\obj\Debug\Proyect conctactos Final 1.pdb
