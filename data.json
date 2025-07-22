@@ -1,0 +1,76 @@
+{
+  "marcas": [
+    {
+      "id": 1,
+      "nombre": "Toyota",
+      "modelos": [
+        {
+          "id": 1,
+          "nombre": "Supra",
+          "año": 2022,
+          "motor": "3.0L Turbo",
+          "body_kits": [
+            {
+              "id": 1,
+              "nombre": "Kit de fuselaje ancho",
+              "precio": "$5,000",
+              "materiales": "Fibra de carbono",
+              "imagen": "supra_widebody.jpg"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "nombre": "GR86",
+          "año": 2023,
+          "motor": "2.4L Boxer",
+          "body_kits": [
+            {
+              "id": 3,
+              "nombre": "Kit de cohetes conejito",
+              "precio": "$4,500",
+              "materiales": "FRP",
+              "imagen": "gr86_rocketbunny.jpg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Nissan",
+      "modelos": [
+        {
+          "id": 2,
+          "nombre": "GT-R",
+          "año": 2023,
+          "motor": "3.8L Twin-Turbo V6",
+          "body_kits": [
+            {
+              "id": 2,
+              "nombre": "Kit de carrocería Nismo",
+              "precio": "$10,000",
+              "materiales": "Plástico reforzado con fibra",
+              "imagen": "gtr_nismo.jpg"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "nombre": "370Z",
+          "año": 2020,
+          "motor": "3.7L V6",
+          "body_kits": [
+            {
+              "id": 4,
+              "nombre": "Kit Amuse",
+              "precio": "$6,000",
+              "materiales": "Fibra de vidrio",
+              "imagen": "370z_amuse.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
